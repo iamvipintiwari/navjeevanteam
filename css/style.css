@@ -1084,7 +1084,7 @@ h3 {
 
 /* line 16, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  background: #3CC78F;
+  background: #00eeaf;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -1474,7 +1474,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/IMG_2053.JPG);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
@@ -2188,15 +2188,15 @@ h3 {
 
 /* line 9, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 130px;
-  padding-bottom: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {
   /* line 9, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -2207,7 +2207,7 @@ h3 {
 
 /* line 18, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .address_text {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #7A7B7C;
   line-height: 30px;
@@ -2244,14 +2244,14 @@ h3 {
   margin-bottom: 38px;
   font-family: "Yeseva One", cursive;
   position: relative;
-  margin-bottom: 15px;
-  padding-bottom: 28px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
   /* line 40, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -2504,7 +2504,7 @@ h3 {
 
 /* line 240, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
-  font-size: 15px;
+  font-size: 25px;
   color: #C3B2F0;
   width: 30px;
   display: inline-block;
@@ -2533,17 +2533,17 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/navkiti/_MG_3414.JPG);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 .breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/navkiti/_MG_3832.JPG);
 }
 
 /* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam3.png);
+  background-image: url(../img/navkiti/_MG_3890.JPG);
 }
 
 /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
@@ -2959,7 +2959,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
 .video_bg_1 {
-  background-image: url(../img/banner/man.png);
+  background-image: url(../img/2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2984,6 +2984,8 @@ h3 {
   /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
   .latest_activites_area .video_activite {
     display: none !important;
+   
+    
   }
 }
 
@@ -2991,6 +2993,7 @@ h3 {
   /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
   .latest_activites_area .video_activite {
     display: none !important;
+   
   }
 }
 
@@ -6804,6 +6807,46 @@ h6 {
 .blog_part .single-home-blog .card ul li span {
   margin-right: 10px;
   font-size: 12px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
