@@ -272,6 +272,8 @@ $('.news_active').owlCarousel({
 
 });
 
+  
+
 // resitration_Form
 $(document).ready(function() {
 	$('.popup-with-form').magnificPopup({
